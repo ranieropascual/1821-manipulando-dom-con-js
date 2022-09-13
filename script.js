@@ -1,16 +1,16 @@
-const btn = document.querySelector("[data-form-btn]");
-
+const btn = document.querySelector('[data-form-btn]');
 
 const createTask = (evento) => {
   evento.preventDefault();
-  const input = document.querySelector("[data-form-btn]");
-  console.log(input.value);
+  const input = document.querySelector('[data-form-btn]');
+  const value = input.value;
+  console.log(value);
 }
 
 
 console.log(btn); 
 
-btn.addEventListener("click", createTask);
+btn.addEventListener('click', createTask);
 
 
 /*
